@@ -1,0 +1,10 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 300px;
+  text-align: center;
+}
+
+input {
+  border: 2px black solid;
+}
