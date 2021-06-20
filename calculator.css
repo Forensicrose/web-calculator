@@ -7,6 +7,8 @@ body {
 
 input {
   border: 4px palevioletred solid;
+  border-radius: 600px;
+  text-align: center;
 }
 
 button {
@@ -14,7 +16,14 @@ button {
 }
 
 #sum {
-  color: palevioletred;
+  color: darkmagenta;
   font-size: 40px;
+  font-style: italic;
+}
+
+#result {
+  font-size: 60px;
+  text-align: center;
+  color: darkmagenta;
   font-style: italic;
 }
