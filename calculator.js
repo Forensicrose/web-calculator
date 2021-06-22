@@ -1,12 +1,20 @@
 function calculate() {
-  const a = Number(document.getElementById("value1").value);
-  const b = Number(document.getElementById("value2").value);
-  const c = (document.getElementById("dropdownmenu").value);
+  let value1 = Number(document.getElementById("value1").value);
+  let value2 = Number(document.getElementById("value2").value);
+  let menu = document.getElementById("dropdownmenu").value;
+
+
+  let value = 0
+  if (menu == "add") {
+     value = value1 + value2;
+  } else if (menu == "subtract") {
+    value = value1 - value2;
+  } else if (menu == "multiply") {
+    value = value1 * value2; 
+  } else if (menu == "divide") {
+    value = value1/value2; }
   
-  document.getElementById("result").innerHTML = (c);
+
+
+document.getElementById("result").innerHTML = value;
 }
-
-
-
-
-
