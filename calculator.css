@@ -15,7 +15,7 @@ button {
   color: palevioletred;
 }
 
-#sum {
+#operator {
   color: darkmagenta;
   font-size: 40px;
   font-style: italic;
@@ -26,4 +26,8 @@ button {
   text-align: center;
   color: darkmagenta;
   font-style: italic;
+}
+
+#dropdownmenu {
+  font-size: 20px;
 }
