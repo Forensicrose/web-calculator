@@ -12,7 +12,8 @@ input {
 }
 
 button {
-  color: palevioletred;
+  color: darkmagenta;
+  font-size: 25px;
 }
 
 #operator {
@@ -24,10 +25,25 @@ button {
 #result {
   font-size: 60px;
   text-align: center;
-  color: darkmagenta;
+  color: deeppink;
   font-style: italic;
 }
 
 #dropdownmenu {
-  font-size: 20px;
+  font-size: 25px;
+  color: darkmagenta;
+}
+
+#value1 {
+  color: deeppink;
+  font-weight: bolder;
+}
+
+#value2 {
+  color: deeppink;
+  font-weight: bolder;
+}
+
+fieldset {
+  border: 3px black dotted;
 }
