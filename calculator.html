@@ -10,23 +10,27 @@
   </head>
   <body>
     <form>
-      <fieldset> <legend><span id="operator">The Calculator <br />
-        </legend>
-        
-    </span> <br>
-    <input type="number" id="value1" placeholder="enter number 1" /> <br>
-    <br>
+      
+        <span id="operator">The Calculator <br />
+        </span> <br>
+    
+    <div id="container"> 
+      
+      <input type="number" id="value1"/> 
+    
     <label for="choose an operator"></label>
     <select id="dropdownmenu">
-      <option value="add">+</option>
-      <option value="subtract">-</option>
-      <option value="multiply">*</option>
-      <option value="divide">/</option>
-    </select> <br> <br>
-    <input type="number" id="value2" placeholder="enter number 2" /> <br>
-    <br>
-    <button type="button" onclick="calculate()">Submit</button> <br />
-    <span id="result"></span></fieldset>
+      <option value="add">Add</option>
+      <option value="subtract">Subtract</option>
+      <option value="multiply">Multiply</option>
+      <option value="divide">Divide</option>
+    </select> 
+    <input type="number" id="value2"/> 
+  
+    <button type="button" onclick="calculate()">=</button> 
+
+    <span id="result"></span>
+    </div>
     </form>
    
   </body>
