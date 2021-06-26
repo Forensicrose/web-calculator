@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: lightslategray;
   font-family: "Courier New", Courier, monospace;
   margin-top: 300px;
   text-align: center;
@@ -19,10 +19,11 @@ button {
 }
 
 #operator {
-  color: palevioletred;
+  color: pink;
   font-size: 40px;
   font-style: italic;
-  font-weight: bold;
+  font-weight: bolder;
+  text-align: center;
 }
 
 #result {
@@ -53,14 +54,13 @@ button {
   padding-left: 20px;
 }
 
-fieldset {
-  border: 3px deeppink dotted;
-}
-
 #container {
   color: blueviolet;
-  border: 4px black solid;
-  margin-left: 400px;
-  margin-right: 300px;
-  background-color: black;
+  border: 4px lightpink;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: pink;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 50px;
 }
