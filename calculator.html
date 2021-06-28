@@ -10,16 +10,24 @@
   </head>
   <body>
     <form>
-      <fieldset> <legend><span id="sum">The Sum Calculator <br />
-        </legend>
-    </span>
-    <input type="number" id="V1" placeholder="enter number 1" /> <br>
-   + <br>
-    <input type="number" id="V2" placeholder="enter number 2" /> <br>
-    <br>
-    <button type="button" onclick="calculate()">Submit</button> <br />
-    <span id="result"></span></fieldset>
+      <span id="operator">The Amazing Calculator! <br /> </span> <br />
+
+      <div id="container">
+        <input type="number" id="value1" />
+
+        <label for="choose an operator"></label>
+        <select id="dropdownmenu">
+          <option value="add">Add</option>
+          <option value="subtract">Subtract</option>
+          <option value="multiply">Multiply</option>
+          <option value="divide">Divide</option>
+        </select>
+        <input type="number" id="value2" />
+
+        <button type="button" onclick="calculate()">=</button>
+
+        <span id="result"></span>
+      </div>
     </form>
-   
   </body>
 </html>

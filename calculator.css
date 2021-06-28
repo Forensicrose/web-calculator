@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: lightslategray;
   font-family: "Courier New", Courier, monospace;
   margin-top: 300px;
   text-align: center;
@@ -8,22 +8,59 @@ body {
 input {
   border: 4px palevioletred solid;
   border-radius: 600px;
+  width: 100px;
+  height: 100px;
   text-align: center;
 }
 
 button {
   color: palevioletred;
+  font-size: 25px;
 }
 
-#sum {
-  color: darkmagenta;
+#operator {
+  color: pink;
   font-size: 40px;
   font-style: italic;
+  font-weight: bolder;
+  text-align: center;
 }
 
 #result {
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
-  color: darkmagenta;
-  font-style: italic;
+  color: deeppink;
+  font-weight: bolder;
+}
+
+#dropdownmenu {
+  font-size: 20px;
+  color: palevioletred;
+  border-radius: 300px;
+  padding-left: 15px;
+}
+
+#value1 {
+  color: deeppink;
+  font-weight: bolder;
+  font-size: 60px;
+  padding-left: 20px;
+}
+
+#value2 {
+  color: deeppink;
+  font-weight: bolder;
+  font-size: 60px;
+  padding-left: 20px;
+}
+
+#container {
+  color: blueviolet;
+  border: 4px lightpink;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: pink;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 50px;
 }
